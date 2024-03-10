@@ -9,6 +9,12 @@ starting react app with bundler
 7. npm i react-router-dom
 
 Specify type=”module” attribute in your script in HTML.
+
 <script type="module" src="App.js"></script>
 
      We need to do this so that we can import react and react-dom in our scripts/js files. We need to specify our script to be a module because only modules can use import /export commands. Normal script files cannot use import/export statements.
+
+now we are installing tailwind.
+
+8. npm install -D tailwindcss postcss.
+9. npx tailwindcss init \\ run the init command to generate tailwind.config.js.
