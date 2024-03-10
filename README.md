@@ -6,3 +6,4 @@ starting react app with bundler
 4. npm i react-dom
 5. npm install -D parcel
 6. add .gitignore file
+7. npm i react-router-dom
