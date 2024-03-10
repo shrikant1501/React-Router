@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Card from "./Card";
 import "../styles.css";
 
 const Body = () => {
@@ -27,10 +28,13 @@ const Body = () => {
   };
 
   return (
-    <div>
+    <div className="container mx-auto px-4 flex flex-wrap justify-between">
       {restaurantData.map((restaurant, index) => (
-        <div key={index}>
-          <p>{restaurant.info.name}</p>
+        <div
+          className="w-1/4 max-w-sm bg-white shadow-md rounded-lg overflow-hidden m-2"
+          key={index}
+        >
+          <Card resData={restaurant} />
         </div>
       ))}
     </div>
