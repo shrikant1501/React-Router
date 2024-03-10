@@ -18,3 +18,9 @@ now we are installing tailwind.
 
 8. npm install -D tailwindcss postcss.
 9. npx tailwindcss init \\ run the init command to generate tailwind.config.js.
+10. npx parcel .\index.html
+
+Here, when I run the project from src folder tailwind css is not reflecting while
+when I run the project from root level it is working
+C:\Users\003P4Q744\Desktop\Shrikant\Learning\React-Router\src> npx parcel index.html --> Not working
+C:\Users\003P4Q744\Desktop\Shrikant\Learning\React-Router> npx parcel src\index.html --> working
