@@ -24,3 +24,7 @@ Here, when I run the project from src folder tailwind css is not reflecting whil
 when I run the project from root level it is working
 C:\Users\003P4Q744\Desktop\Shrikant\Learning\React-Router\src> npx parcel index.html --> Not working
 C:\Users\003P4Q744\Desktop\Shrikant\Learning\React-Router> npx parcel src\index.html --> working
+
+To start Project on new machine clone the repo
+npm install
+npx parcel src/index.html
