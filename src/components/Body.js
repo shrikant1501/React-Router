@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import Card from "./Card";
 import "../styles.css";
 
@@ -34,7 +35,12 @@ const Body = () => {
           className="w-1/4 max-w-sm bg-white shadow-md rounded-lg overflow-hidden m-2"
           key={index}
         >
-          <Card resData={restaurant} />
+          <Link
+            key={restaurant.info.id}
+            to={"restaurant/" + restaurant.info.id}
+          >
+            <Card resData={restaurant} />
+          </Link>
         </div>
       ))}
     </div>
